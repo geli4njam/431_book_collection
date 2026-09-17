@@ -1,0 +1,9 @@
+{
+  "name": "Book Collection",
+  "scripts": {
+    "postdeploy": "bundle exec rails db:migrate"
+  },
+  "addons": [
+    "heroku-postgresql"
+  ]
+}
