@@ -13,6 +13,6 @@
   </tr>
   <tr>
     <th>Published Date</th>
-    <td><%= f.date_field(:published_date) %></td>
-  </tr>
+    <td><%= f.date_select(:published_date, start_year: 1800, end_year: Date.current.year) %></td>
+  </tr> 
 </table>
